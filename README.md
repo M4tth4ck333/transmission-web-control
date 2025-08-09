@@ -1,51 +1,61 @@
-## 注意：项目不再维护
-> 因项目时间久远，所涉及的技术已过于陈旧，加上本人已没有精力在本项目上进行更新，现决定归档本项目，大家可以使用其他替代项目。
+> Achtung: Das Projekt wird nicht mehr gepflegt
 >
-> 如您还需要继续使用本项目，目前最好的方式是在 Docker 里使用 2.94 版本，然后设定环境变量指定WebUI，具体可参考（https://www.cnblogs.com/ronggang/p/18788723 ）；或者使用其他已集成的项目。
+> Da das Projekt schon lange besteht und die verwendete Technologie veraltet ist und ich keine Energie mehr für die Aktualisierung dieses Projekts habe, habe ich beschlossen, das Projekt zu archivieren. Sie können stattdessen andere Projekte verwenden.
 >
-> 感谢大家长期以来的支持。
-> 
-> 2025.06.01 栽培者 
+> Wenn Sie dieses Projekt weiterhin verwenden müssen, ist die beste Möglichkeit, Version 2.94 in Docker zu verwenden und eine Umgebungsvariable für die WebUI festzulegen. Siehe dazu ([https://www.cnblogs.com/ronggang/p/18788723](https://www.cnblogs.com/ronggang/p/18788723)); oder verwenden Sie andere bereits integrierte Projekte.
+>
+> Vielen Dank für Ihre langjährige Unterstützung.
+>
+> 01.06.2025 Zaipeizhe (der Kultivierende)
 
-----
+-----
 
-<p align="center">
-<img src="https://github.com/ronggang/transmission-web-control/raw/master/src/tr-web-control/logo.png"><br/>
-<a href="https://github.com/ronggang/transmission-web-control/releases" title="GitHub Releases"><img src="https://img.shields.io/github/release/ronggang/transmission-web-control.svg"></a>
-<img src="https://img.shields.io/badge/transmission-%3E=2.40%20(RPC%20%3E14)-green.svg" title="Support Transmission Version">
-<a href="https://github.com/ronggang/transmission-web-control/LICENSE" title="GitHub license"><img src="https://img.shields.io/github/license/ronggang/transmission-web-control.svg"></a>
-<a href="https://t.me/transmission_web_control"><img src="https://img.shields.io/badge/Telegram-Chat-blue.svg?logo=telegram" alt="Telegram"/></a>
-</p>
+\<p align="center"\>
+\<img src="[https://github.com/ronggang/transmission-web-control/raw/master/src/tr-web-control/logo.png](https://github.com/ronggang/transmission-web-control/raw/master/src/tr-web-control/logo.png)"\>\<br/\>
+\<a href="[https://github.com/ronggang/transmission-web-control/releases](https://github.com/ronggang/transmission-web-control/releases)" title="GitHub Releases"\>\<img src="[https://img.shields.io/github/release/ronggang/transmission-web-control.svg](https://img.shields.io/github/release/ronggang/transmission-web-control.svg)"\>\</a\>
+\<img src="[https://img.shields.io/badge/transmission-%3E=2.40%20(RPC%20%3E14)-green.svg](https://img.shields.io/badge/transmission-%3E=2.40%20\(RPC%20%3E14\)-green.svg)" title="Unterstützte Transmission Version"\>
+\<a href="[https://github.com/ronggang/transmission-web-control/LICENSE](https://github.com/ronggang/transmission-web-control/LICENSE)" title="GitHub Lizenz"\>\<img src="[https://img.shields.io/github/license/ronggang/transmission-web-control.svg](https://img.shields.io/github/license/ronggang/transmission-web-control.svg)"\>\</a\>
+\<a href="[https://t.me/transmission\_web\_control](https://t.me/transmission_web_control)"\>\<img src="[https://img.shields.io/badge/Telegram-Chat-blue.svg?logo=telegram](https://img.shields.io/badge/Telegram-Chat-blue.svg?logo=telegram)" alt="Telegram"/\>\</a\>
+\</p\>
 
-----
+-----
+
 ## [English Introduction](https://github.com/ronggang/transmission-web-control/wiki)
 
-## 国内镜像源
-- https://gitee.com/culturist/transmission-web-control
+## Inländische Mirror-Quelle
 
-## 关于
-本项目主要目的是想加强[Transmission](https://www.transmissionbt.com/) Web的操作能力，本项目原本在[Google Code](https://code.google.com/p/transmission-control/)托管，现迁移至GitHub。
-本项目设计之初仅针对PT站，因此增加了 Tracker 服务器分组及状态，但这不并适用于普通BT种子。
+  - https://gitee.com/culturist/transmission-web-control
 
-另外，本项目仅为一套自定义的WebUI，不能代替 Transmission 工作，用户需要自行安装 Transmission 后才可正常使，Transmission 安装方法请移步至官网：https://www.transmissionbt.com/
+## Über
 
-## 界面预览
-![screenshots](https://user-images.githubusercontent.com/8065899/38598199-0d2e684c-3d8e-11e8-8b21-3cd1f3c7580a.png)
+Das Hauptziel dieses Projekts ist es, die Bedienbarkeit der [Transmission](https://www.transmissionbt.com/) Web-Oberfläche zu verbessern. Dieses Projekt wurde ursprünglich auf [Google Code](https://code.google.com/p/transmission-control/) gehostet und wurde nun zu GitHub migriert.
+Dieses Projekt wurde ursprünglich für PT-Seiten (Private Tracker) entworfen, weshalb es eine Gruppierung und Statusanzeige für Tracker-Server hinzufügt, was für normale BT-Torrents nicht geeignet ist.
 
-## 安装方法及更多内容，请参考：[中文帮助](https://github.com/ronggang/transmission-web-control/wiki/Home-CN) 
+Darüber hinaus ist dieses Projekt nur eine benutzerdefinierte WebUI und kann Transmission nicht ersetzen. Benutzer müssen Transmission selbst installieren, damit es ordnungsgemäß funktioniert. Anweisungen zur Installation von Transmission finden Sie auf der offiziellen Website: [https://www.transmissionbt.com/](https://www.transmissionbt.com/)
+
+## Benutzeroberfläche-Vorschau
+
+## Installationsanweisungen und weitere Inhalte finden Sie hier: [Chinesische Hilfe](https://github.com/ronggang/transmission-web-control/wiki/Home-CN)
+
 ### DSM7.0
-在这个版本中，需要额外修改权限以实现自动更新的功能
-在 `root` 权限下执行以下命令，其中：
- - `YOUR_USERNAME` 替换为你登录和更新脚本时候选择的用户
- - `/var/packages/transmission/target/share/transmission/web/` 这串路径为 transmission 的安装路径（默认应该是这个）
+
+In dieser Version müssen zusätzliche Berechtigungen geändert werden, um die automatische Aktualisierungsfunktion zu ermöglichen.
+Führen Sie die folgenden Befehle mit `root`-Rechten aus, wobei:
+
+  - `YOUR_USERNAME` durch den Benutzernamen ersetzt wird, den Sie für die Anmeldung und das Ausführen des Update-Skripts verwenden.
+  - `/var/packages/transmission/target/share/transmission/web/` der Installationspfad von Transmission ist (standardmäßig sollte es dieser sein).
+
+<!-- end list -->
+
 ```shell
 sed -i '/sc-transmission/s/$/YOUR_USERNAME/' /etc/group
 chown sc-transmission:sc-transmission /var/packages/transmission/target/share/transmission/web/* -R
 chmod 774 /var/packages/transmission/target/share/transmission/web/* -R
 ```
 
-## 更新日志 [查看](https://github.com/ronggang/transmission-web-control/blob/master/CHANGELOG.md)
+## Änderungslog [Anzeigen](https://github.com/ronggang/transmission-web-control/blob/master/CHANGELOG.md)
 
-## 项目日常维护
-* 栽培者
-* DarkAlexWang
+## Tägliche Projektpflege
+
+  * Zaipeizhe (der Kultivierende)
+  * DarkAlexWang
